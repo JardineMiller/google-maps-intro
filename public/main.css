@@ -1,0 +1,25 @@
+#main-map {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  position: absolute;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  z-index: 2;
+  padding: 10px;
+  top: 90vh;
+  left: 20px;
+}
+
+#geo-button {
+  left: 150px;
+}
+
+
